@@ -58,8 +58,8 @@ export default function App() {
       </main>
 
       <footer>
-        <small>{new Date().getFullYear()} My Personal Task Manager</small>
-        <small>Tasks are saved in your browser (localStorage).</small>
+        <small>{new Date().getFullYear()} </small>
+        <small>tasks are saved in your browser (localStorage).</small>
       </footer>
     </div>
   );
