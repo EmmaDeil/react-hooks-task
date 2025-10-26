@@ -23,7 +23,7 @@ function TaskList({ tasks, onToggle, onDelete }) {
               )}
             </div>
           </div>
-          
+
           <div className="task-controls">
             <span className="priority">{t.priority}</span>
             <button className="delete" onClick={() => onDelete(t.id)}>
@@ -58,6 +58,7 @@ export default function App() {
       </main>
 
       <footer>
+        <small>{new Date().getFullYear()} My Personal Task Manager</small>
         <small>Tasks are saved in your browser (localStorage).</small>
       </footer>
     </div>

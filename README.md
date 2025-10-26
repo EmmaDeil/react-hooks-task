@@ -1,6 +1,6 @@
 # PersonalTask (react-hooks-task)
 
-A small Vite + React project demonstrating React Hooks and a simple task list UI.
+A small Vite + React project demonstrating React Hooks and a simple task manager list UI.
 
 This repository contains a lightweight task manager built with React 19 and Vite. It's intended as a learning/example project for hooks like useState, useEffect, useContext, createContext, and ThemeContext and small component composition.
 
@@ -46,7 +46,7 @@ Run the dev server:
 npm run dev
 ```
 
-Open http://localhost:5173 (or the URL shown in the terminal) in your browser.
+Open http://localhost:3000 (or the URL shown in the terminal) in your browser.
 
 ## Project structure (high level)
 
