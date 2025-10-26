@@ -9,7 +9,7 @@ function TaskList({ tasks, onToggle, onDelete }) {
   return (
     <ul className="task-list">
       {tasks.map((t) => (
-        <li key={t.id} className={t.done ? "done" : ""}>
+        <li key={t.id} className={t.done ? "completed" : ""}>
           <div className="task-main">
             <input
               type="checkbox"
